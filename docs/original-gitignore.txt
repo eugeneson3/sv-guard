@@ -1,0 +1,31 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# SV-Guard runtime state
+.svguard/
+
+# Vivado / xsim outputs
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+webtalk*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

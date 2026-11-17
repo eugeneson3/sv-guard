@@ -1,0 +1,6 @@
+# Keep LF in the repo and working tree so byte/column math in tests is identical on Windows and Linux.
+* text=auto eol=lf
+# cmd.exe misreads labels/goto in LF-only batch files
+*.bat text eol=crlf
+*.png binary
+*.gif binary

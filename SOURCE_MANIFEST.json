@@ -1,0 +1,625 @@
+{
+  "snapshot_date": "2026-11-18",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "source": "easySV/.gitattributes",
+      "sha256": "988794ce06076b2328e5a50d9c37e8008b9d2747b2c61f100e479ca3e74ac413"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "source": "easySV/.github/workflows/ci.yml",
+      "sha256": "ab582b918ecf5f63483757f90f0903fcb09a030d2eaeee2fd1cf82f29fbdda9b"
+    },
+    {
+      "path": "docs/original-gitignore.txt",
+      "source": "easySV/.gitignore",
+      "sha256": "ed9c9f616e14695c55000e3429e0e66fd7ba5dc2319e88f477b0770f4c69285b"
+    },
+    {
+      "path": "app/__init__.py",
+      "source": "easySV/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/__main__.py",
+      "source": "easySV/app/__main__.py",
+      "sha256": "2b212fce8a8f2121d467ae64fca3780af5a41fbfb9bc9fd3bcb0a7a847c567b1"
+    },
+    {
+      "path": "app/commands/__init__.py",
+      "source": "easySV/app/commands/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/commands/fuzzy.py",
+      "source": "easySV/app/commands/fuzzy.py",
+      "sha256": "01659a541bb6f3fa0503957ee8618e4f28f87fe17f6fb364da7ec215ab3a69b6"
+    },
+    {
+      "path": "app/commands/keymap.py",
+      "source": "easySV/app/commands/keymap.py",
+      "sha256": "91ca214e986dea200b4480d050039a31829dd222fbb2ae5c7c20e8b2949c32e8"
+    },
+    {
+      "path": "app/commands/registry.py",
+      "source": "easySV/app/commands/registry.py",
+      "sha256": "4406297609632f7fc2889546500cb0441b7159abbc056c96459aea3cc27030b7"
+    },
+    {
+      "path": "app/editor/__init__.py",
+      "source": "easySV/app/editor/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/editor/code_editor.py",
+      "source": "easySV/app/editor/code_editor.py",
+      "sha256": "c9257dc5f9187fce9501a809cc927255abdbdb511f5ef7e8177df61ca9a51bb6"
+    },
+    {
+      "path": "app/editor/diagnostics.py",
+      "source": "easySV/app/editor/diagnostics.py",
+      "sha256": "f5f8570faa63fe5dd4b7bfa9d5ddfc2ca36f8827e42833bb4a5cf1a6da3a407c"
+    },
+    {
+      "path": "app/editor/editor_tabs.py",
+      "source": "easySV/app/editor/editor_tabs.py",
+      "sha256": "16ec9469140655e7ad82a43cee2e2198a5a2c1f97779bf4255ba44bcaf2ffb47"
+    },
+    {
+      "path": "app/editor/qt_buffer.py",
+      "source": "easySV/app/editor/qt_buffer.py",
+      "sha256": "5eb3953d8eb86a92d809e25bee31bd5f522705d404697ced817b23eaec0238df"
+    },
+    {
+      "path": "app/editor/statusline.py",
+      "source": "easySV/app/editor/statusline.py",
+      "sha256": "886c7d028ceb3f3df02cb6c7be49ef7be61b23509a2018ef1c2ac875e90d0def"
+    },
+    {
+      "path": "app/editor/sv_highlighter.py",
+      "source": "easySV/app/editor/sv_highlighter.py",
+      "sha256": "4ae8c6f50945f8d7689c7181978c4cd0f9c8a6982401c79624575cc0b4135444"
+    },
+    {
+      "path": "app/editor/sv_keywords.py",
+      "source": "easySV/app/editor/sv_keywords.py",
+      "sha256": "4578d1c9e1a7b07162532975ad61a3aa2b4f76f434a09b0115eb103eb9bd2641"
+    },
+    {
+      "path": "app/editor/vim_adapter.py",
+      "source": "easySV/app/editor/vim_adapter.py",
+      "sha256": "f0d53ab107972e0662be9882eecc070fc607229a370b28b42624d65a648c013f"
+    },
+    {
+      "path": "app/main.py",
+      "source": "easySV/app/main.py",
+      "sha256": "f2759dbb10584abc2df132e155cd6225c15abd807fdd64cf8f720378932a2065"
+    },
+    {
+      "path": "app/main_window.py",
+      "source": "easySV/app/main_window.py",
+      "sha256": "18e46b5b66ed1b8f5c541f387a7d6738bd61bbb263448156b58eb821573b39e3"
+    },
+    {
+      "path": "app/panels/__init__.py",
+      "source": "easySV/app/panels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/panels/fuzzy_finder.py",
+      "source": "easySV/app/panels/fuzzy_finder.py",
+      "sha256": "5d7d247844880075688db7041a08ebf5eb4cda445fe8288e86b03f9abb71a851"
+    },
+    {
+      "path": "app/panels/problems_panel.py",
+      "source": "easySV/app/panels/problems_panel.py",
+      "sha256": "9530b48d3702ea84bfb82d5fc4e9aa56c96ee0239042c97bf5a214439a28106f"
+    },
+    {
+      "path": "app/panels/project_explorer.py",
+      "source": "easySV/app/panels/project_explorer.py",
+      "sha256": "911833dc0f92c67a29368ef2f3bba3f0278c4c766e9999f72f98a7913365a5e8"
+    },
+    {
+      "path": "app/resources/svguard.ico",
+      "source": "easySV/app/resources/svguard.ico",
+      "sha256": "4c567ebb04ec8043929a7f45a5a1c925b9ee91e556b047c9d8da29de67dfa9a5"
+    },
+    {
+      "path": "app/resources/svguard.png",
+      "source": "easySV/app/resources/svguard.png",
+      "sha256": "9c5d57f8aac3bc0b308ef9624437a207206d498251f78a974f76bd0701002237"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "source": "easySV/app/services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app/services/analysis_service.py",
+      "source": "easySV/app/services/analysis_service.py",
+      "sha256": "1a741a48e3eb5fa9fd402493e1addd869508da3157d6b820a770042258b8d939"
+    },
+    {
+      "path": "app/services/session_service.py",
+      "source": "easySV/app/services/session_service.py",
+      "sha256": "0a0bac8445c23c042c6eb12ba8668027e4eae0c3653faa0b0afb22b0d2c1e265"
+    },
+    {
+      "path": "app/settings.py",
+      "source": "easySV/app/settings.py",
+      "sha256": "5ed0e67e949ce7404018e4893fbea27a3f5fd217ead868c83ea5e60945943c9a"
+    },
+    {
+      "path": "config/keymap.default.yaml",
+      "source": "easySV/config/keymap.default.yaml",
+      "sha256": "0e3da8a7683ff0a87d2f1963d98a1599b759e9ebe59bbb0b3d98a1ce443419b9"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "source": "easySV/docs/ROADMAP.md",
+      "sha256": "159adacc1709405972c315b3fcb8c90381bad659b1852e6694ded365f9205367"
+    },
+    {
+      "path": "examples/basic/counter.sv",
+      "source": "easySV/examples/basic/counter.sv",
+      "sha256": "055f97b8552e701e78354b7947955823f5045f4b0b766fa67b3a818fc7d63de0"
+    },
+    {
+      "path": "examples/basic/mistake01_latch_if.sv",
+      "source": "easySV/examples/basic/mistake01_latch_if.sv",
+      "sha256": "3d7af20a20e76e873ad05d95e4d27c740fd8cfe46923afdf60d9ab3e7de29a63"
+    },
+    {
+      "path": "examples/basic/mistake02_latch_case.sv",
+      "source": "easySV/examples/basic/mistake02_latch_case.sv",
+      "sha256": "f2e075b28b54fe48af0823698db7bfd333d8e0c9e2ef6054783ab3314cd64175"
+    },
+    {
+      "path": "examples/basic/mistake03_blocking_in_ff.sv",
+      "source": "easySV/examples/basic/mistake03_blocking_in_ff.sv",
+      "sha256": "b298500f4ae7c4cca73c2071b3b1805e5a4634adef6643d64dc10cb99a53c725"
+    },
+    {
+      "path": "examples/basic/mistake04_nonblocking_in_comb.sv",
+      "source": "easySV/examples/basic/mistake04_nonblocking_in_comb.sv",
+      "sha256": "f31056b13cbf877fcc06009daa7ff9682ff05ff1986512a190ba6328a2df1310"
+    },
+    {
+      "path": "examples/basic/mistake05_mixed_assign.sv",
+      "source": "easySV/examples/basic/mistake05_mixed_assign.sv",
+      "sha256": "197bd83d2b0ddfe9fd24b1c789735dfa6ed4cb95abf4e3d787e4d1df85fa44ff"
+    },
+    {
+      "path": "examples/basic/mistake06_multi_driver.sv",
+      "source": "easySV/examples/basic/mistake06_multi_driver.sv",
+      "sha256": "00565e07940139b33fe1de7b7b36fe74251ff8b87845b8965670b86c0af6433f"
+    },
+    {
+      "path": "examples/basic/mistake07_unconnected_port.sv",
+      "source": "easySV/examples/basic/mistake07_unconnected_port.sv",
+      "sha256": "c23800a2117f2ffd0ac1ca1b0e48e26cf94fa0a4ec7d89e984fc5b44e0232b10"
+    },
+    {
+      "path": "examples/basic/mistake08_width_mismatch.sv",
+      "source": "easySV/examples/basic/mistake08_width_mismatch.sv",
+      "sha256": "78e6a7cb847dce7cbf7328eae1024a164f34d78bde8a3d6afdc3de169c14e0ff"
+    },
+    {
+      "path": "examples/basic/mistake09_fsm_missing_state.sv",
+      "source": "easySV/examples/basic/mistake09_fsm_missing_state.sv",
+      "sha256": "52c260cdafe1b63be287a46e798e27c232aa92e974bca8dce7d86de100951039"
+    },
+    {
+      "path": "examples/basic/mistake10_good_reference.sv",
+      "source": "easySV/examples/basic/mistake10_good_reference.sv",
+      "sha256": "114b0fc2c7ecba9e77f5d56d03175372db61a06195c22bf2ad9d3d89ba8a4548"
+    },
+    {
+      "path": "examples/basic/top.sv",
+      "source": "easySV/examples/basic/top.sv",
+      "sha256": "c535e74f6450bb980525b8a34c3c2d871aaf48769b2652628fad260714e67466"
+    },
+    {
+      "path": "examples/step0/buggy.sv",
+      "source": "easySV/examples/step0/buggy.sv",
+      "sha256": "204ef1c7b26f9129e9033b756de1c8caf9073e53413c045a33b1cc26fe7612a0"
+    },
+    {
+      "path": "examples/step0/uvm_snippet.sv",
+      "source": "easySV/examples/step0/uvm_snippet.sv",
+      "sha256": "c36811d1c23a2a823dcfc7af6beff24885c44a76d27b53c65e97e660ec79ed3f"
+    },
+    {
+      "path": "Makefile",
+      "source": "easySV/Makefile",
+      "sha256": "9296aa6d41bd524488d125f265902a8e5ff7b380fb6739b54b45341bf7632cec"
+    },
+    {
+      "path": "pyproject.toml",
+      "source": "easySV/pyproject.toml",
+      "sha256": "11c824bdd54907d2bc39e9483d84675e88401c714c3325598c0f673ba13de114"
+    },
+    {
+      "path": "docs/original-readme.md",
+      "source": "easySV/README.md",
+      "sha256": "7123e1ecebd3f22f383272c4e3541580fbab6dc8c4afd64af944a1fc3d3d3273"
+    },
+    {
+      "path": "scripts/install.ps1",
+      "source": "easySV/scripts/install.ps1",
+      "sha256": "bd1ddab6636398fda0ac8a4a0b128a4e1fa0e12c59fabfe76fc7e3da7354f949"
+    },
+    {
+      "path": "scripts/make_icon.py",
+      "source": "easySV/scripts/make_icon.py",
+      "sha256": "a25a13f642c63d80193d4af5eaf506dd0abe1eb5ee9ae81acc5194d6fe6e8fad"
+    },
+    {
+      "path": "scripts/step0/check_env.py",
+      "source": "easySV/scripts/step0/check_env.py",
+      "sha256": "7d38fe1bcc6b5d06ba9f80abd5016c0597f14130946e74d459b9abbbc48d8c5c"
+    },
+    {
+      "path": "scripts/step0/explore_pyslang.py",
+      "source": "easySV/scripts/step0/explore_pyslang.py",
+      "sha256": "e3ef9b84696fba132b6f2b8098d4d1dc28c0fcfe1fcf38192757fe1db2056e71"
+    },
+    {
+      "path": "scripts/step0/hello_qt.py",
+      "source": "easySV/scripts/step0/hello_qt.py",
+      "sha256": "3d67337b6fff2f49c3dc54da32fde9a47612b51c437a2cfd8ec4ffd873a02726"
+    },
+    {
+      "path": "setup.bat",
+      "source": "easySV/setup.bat",
+      "sha256": "f20643fdfaa812c87faad224720f1b25c78818cbffac198cda190fad6f2649db"
+    },
+    {
+      "path": "svguard/__init__.py",
+      "source": "easySV/svguard/__init__.py",
+      "sha256": "3f5989b0312619567dee41a6ef2745ed80a795ca279fa372d0904e3e9455fc96"
+    },
+    {
+      "path": "svguard/__main__.py",
+      "source": "easySV/svguard/__main__.py",
+      "sha256": "861d17940029f67c8362a4545de4bc47feea3c35bdc274a37f953007090b5cc7"
+    },
+    {
+      "path": "svguard/cli.py",
+      "source": "easySV/svguard/cli.py",
+      "sha256": "100fcb253227523f225de6012ebb8dc0c21d45060102a1a73fa9131ae39a6b44"
+    },
+    {
+      "path": "svguard/model.py",
+      "source": "easySV/svguard/model.py",
+      "sha256": "6cadf0a4c909f4157447d72793800ed8d0538058eaeb4646fce8c1a44a83ea2a"
+    },
+    {
+      "path": "svguard/parser.py",
+      "source": "easySV/svguard/parser.py",
+      "sha256": "a62fd6430798841755333bfb0ff44ff19898944bf3993638dc7fcac0b41f130c"
+    },
+    {
+      "path": "svguard/project.py",
+      "source": "easySV/svguard/project.py",
+      "sha256": "12222c77db9c55aad2fb0cb6f6b0ff31a9bfbe716f30dbf954499599fb0b2fc4"
+    },
+    {
+      "path": "svguard/runner.py",
+      "source": "easySV/svguard/runner.py",
+      "sha256": "d2190fc433f08ec1ec373004a0f5e6c3c7af36e6f01167ff76d1c82022376fcd"
+    },
+    {
+      "path": "svguard/textio.py",
+      "source": "easySV/svguard/textio.py",
+      "sha256": "c25b6b291812f999629bee5a90ca69775fb62cec47092d6bbc605ee5957e0c46"
+    },
+    {
+      "path": "svguard/uvm.py",
+      "source": "easySV/svguard/uvm.py",
+      "sha256": "fe66b1de40efde38f5725d1d1a6a17aefcd445f71ae994c7261919246020cb7d"
+    },
+    {
+      "path": "tasks.py",
+      "source": "easySV/tasks.py",
+      "sha256": "b791283642d61be28e033a672cac15090a83880539067d16fdf385cc32b47f49"
+    },
+    {
+      "path": "tests/app/conftest.py",
+      "source": "easySV/tests/app/conftest.py",
+      "sha256": "4695c20ddeef731a222a9b2b3808e29daa7cc0baa3c56c5c90fd5b79c8df3bf1"
+    },
+    {
+      "path": "tests/app/test_check_on_save.py",
+      "source": "easySV/tests/app/test_check_on_save.py",
+      "sha256": "335404cdab4d49376da8a4d63cbbb33495a0fee78b78d7d29b99f178920f02bc"
+    },
+    {
+      "path": "tests/app/test_code_editor.py",
+      "source": "easySV/tests/app/test_code_editor.py",
+      "sha256": "c4e7b581401edcb5aade25ac8ad11ad3517a5c3aa1bccb33e4e3fe53f72c557b"
+    },
+    {
+      "path": "tests/app/test_commands.py",
+      "source": "easySV/tests/app/test_commands.py",
+      "sha256": "cf431112d42714fdf320147df592a1ab391c0b029d1f3e26717ac1bcbb06db43"
+    },
+    {
+      "path": "tests/app/test_editor_tabs.py",
+      "source": "easySV/tests/app/test_editor_tabs.py",
+      "sha256": "613ff83cd4a27d6f53ba560b1f1e8e5bba39f5f7800a3f78141ae4f10fef2200"
+    },
+    {
+      "path": "tests/app/test_highlighter.py",
+      "source": "easySV/tests/app/test_highlighter.py",
+      "sha256": "cfd6fbb41ac8a9e8f9d4569c2d9317e89256b6cb771f50bc78a8cff0d5fbb1d5"
+    },
+    {
+      "path": "tests/app/test_main_window.py",
+      "source": "easySV/tests/app/test_main_window.py",
+      "sha256": "19c153b021d95d3379f551cb21679363f2fecbb444a1581c1437eca7d494945c"
+    },
+    {
+      "path": "tests/app/test_project_explorer.py",
+      "source": "easySV/tests/app/test_project_explorer.py",
+      "sha256": "ad7a2790c29e53ba1980c911fb991599773297446d134d0e42260a864b01bd9a"
+    },
+    {
+      "path": "tests/app/test_session_restore.py",
+      "source": "easySV/tests/app/test_session_restore.py",
+      "sha256": "33770a04902300ef9905627c0954ef87ec4df164983c0ae16435a80635315f44"
+    },
+    {
+      "path": "tests/app/test_settings.py",
+      "source": "easySV/tests/app/test_settings.py",
+      "sha256": "e427e57d4e9d8ff50ab9ea97db7453fcaebeb29e2263da8a1632e5ad130869b2"
+    },
+    {
+      "path": "tests/app/test_sv_keywords.py",
+      "source": "easySV/tests/app/test_sv_keywords.py",
+      "sha256": "678e15c55ad0547e26ef52634ee89ea7f75e445c4dab661ee3123ef0777fdf61"
+    },
+    {
+      "path": "tests/app/test_vim_adapter.py",
+      "source": "easySV/tests/app/test_vim_adapter.py",
+      "sha256": "0cbb5df57e738792db04e938d50ca2509c1e9c82c5f44ce54136809b90f589f6"
+    },
+    {
+      "path": "tests/conftest.py",
+      "source": "easySV/tests/conftest.py",
+      "sha256": "5792ab27c7c9d9c27f11370285cb2a9d07cab762f973b29e4fc680cbc87bdb17"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/include/defs.svh",
+      "source": "easySV/tests/fixtures/projects/multi/include/defs.svh",
+      "sha256": "9b4a02525bf860994c7b25a383fcbd9fe817ef78917bbf2b84813952594fed11"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/proj.sim/sim_1/glbl.v",
+      "source": "easySV/tests/fixtures/projects/multi/proj.sim/sim_1/glbl.v",
+      "sha256": "222baab2bcbc21412991c1e5982c9c463e8212473c89ca96c2eea735531a857a"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/rtl/sub.sv",
+      "source": "easySV/tests/fixtures/projects/multi/rtl/sub.sv",
+      "sha256": "85ec1b1d716a6e08fb950e64fd1c39c20aa3869eeada54225e732434a6d9e7d0"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/rtl/top.sv",
+      "source": "easySV/tests/fixtures/projects/multi/rtl/top.sv",
+      "sha256": "253a7e84eb4a343aa07e1710839ff8e25c31519f1232cbe404d93d84b3c3df2c"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/rtl/types_pkg.sv",
+      "source": "easySV/tests/fixtures/projects/multi/rtl/types_pkg.sv",
+      "sha256": "5af2c0193c273bed2b2306a8f450a06a316ecb29343e6d3f99affc94db9c568f"
+    },
+    {
+      "path": "tests/fixtures/projects/multi/third_party/vendor.sv",
+      "source": "easySV/tests/fixtures/projects/multi/third_party/vendor.sv",
+      "sha256": "c8e0b2dd88c0afa5ba190bdbe189fbf622ef3ffc73b6234476c83ec08dcee294"
+    },
+    {
+      "path": "tests/fixtures/projects/uvm_tb/my_driver.sv",
+      "source": "easySV/tests/fixtures/projects/uvm_tb/my_driver.sv",
+      "sha256": "75bab8c270ce5b66edb372ab732a55688d7410df833c9e078ba6aa851f5d88c1"
+    },
+    {
+      "path": "tests/fixtures/projects/uvm_tb/my_item.sv",
+      "source": "easySV/tests/fixtures/projects/uvm_tb/my_item.sv",
+      "sha256": "08252d0fde4603487a38d2cb478bf96c6c1b0a65a777dae1e422f4ce97b350a4"
+    },
+    {
+      "path": "tests/fixtures/projects/uvm_tb/tb_pkg.sv",
+      "source": "easySV/tests/fixtures/projects/uvm_tb/tb_pkg.sv",
+      "sha256": "de4f194cf33e72d69e085618dd25d5840fbee071897cb14dfa44d623d43e9e94"
+    },
+    {
+      "path": "tests/fixtures/projects/uvm_tb/tb_top.sv",
+      "source": "easySV/tests/fixtures/projects/uvm_tb/tb_top.sv",
+      "sha256": "d57df1773d37515a78eee27f35c7a584fbc0484dffe4732747565734a620d5b6"
+    },
+    {
+      "path": "tests/fixtures/rtl/clean_counter.sv",
+      "source": "easySV/tests/fixtures/rtl/clean_counter.sv",
+      "sha256": "731badc2bba96fef6e3512c0c2323f00f2e7d537fea065dd87b3c38c3d17af6b"
+    },
+    {
+      "path": "tests/fixtures/rtl/latch.sv",
+      "source": "easySV/tests/fixtures/rtl/latch.sv",
+      "sha256": "f4063abaf9f16e1827ef4a2f053dae0bf330b1bd71c84a49444537abf2f7dd8c"
+    },
+    {
+      "path": "tests/fixtures/rtl/syntax_error.sv",
+      "source": "easySV/tests/fixtures/rtl/syntax_error.sv",
+      "sha256": "20078c030471fbf1be0cf60831ff999bbc1f9c64f93df38eb79d570918db35fb"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "source": "easySV/tests/test_cli.py",
+      "sha256": "9618c9d7f3b60655b1ac72a1452a06e549036790bb5c0bcf47ff9adafa73e2cd"
+    },
+    {
+      "path": "tests/test_model.py",
+      "source": "easySV/tests/test_model.py",
+      "sha256": "f66d1f658fedd60ecf26ce59259ffd00682fec27e9056953beb6102392e8f579"
+    },
+    {
+      "path": "tests/test_parser.py",
+      "source": "easySV/tests/test_parser.py",
+      "sha256": "8910880e4f455ea16671e470c29c10e1ea9530b2a840f2b2e965e1cedeaaabe0"
+    },
+    {
+      "path": "tests/test_project.py",
+      "source": "easySV/tests/test_project.py",
+      "sha256": "650e0503774e650d3de481666182f5ac4868e33cfc49bd80b5585fa4ae7e16db"
+    },
+    {
+      "path": "tests/test_runner.py",
+      "source": "easySV/tests/test_runner.py",
+      "sha256": "0756375b50a48e6d6e5c08b3a5303ebd7cacf508d0f4f15199798a0f2265deb0"
+    },
+    {
+      "path": "tests/test_session.py",
+      "source": "easySV/tests/test_session.py",
+      "sha256": "b36ae26f9ce210ab33584bc753536a0166d758eb8cd5c985f87ecbcdc4ebae74"
+    },
+    {
+      "path": "tests/test_textio.py",
+      "source": "easySV/tests/test_textio.py",
+      "sha256": "7f359ed96926f67e11001ef059c673621a39b237d7ea2e54c96f21d7becb2c5b"
+    },
+    {
+      "path": "tests/test_uvm.py",
+      "source": "easySV/tests/test_uvm.py",
+      "sha256": "36a0b56e3e12bf7a7ca284651240bfb79be04029aa2ae59c921284cc5c32c10a"
+    },
+    {
+      "path": "tests/vimcore/test_excmd.py",
+      "source": "easySV/tests/vimcore/test_excmd.py",
+      "sha256": "0f5a9ca28fc0df3703f690f78ff529f8f629dc282d4884b010c8bd4340903cbd"
+    },
+    {
+      "path": "tests/vimcore/test_insert.py",
+      "source": "easySV/tests/vimcore/test_insert.py",
+      "sha256": "3605a9e4ca3a7672a8e9a551b0b6439fb4d1791d058cde266e1b9e10a6bdca69"
+    },
+    {
+      "path": "tests/vimcore/test_keyparser.py",
+      "source": "easySV/tests/vimcore/test_keyparser.py",
+      "sha256": "bc2beb7a8a9faf6f4fe77c8f53b5e0c03316491e74730ae788fedb83d4cf4356"
+    },
+    {
+      "path": "tests/vimcore/test_mapping.py",
+      "source": "easySV/tests/vimcore/test_mapping.py",
+      "sha256": "eabb98f0924642c3cb6abf6884eac7b7bb87e1fb13301a6cd2bb7ac6eb696768"
+    },
+    {
+      "path": "tests/vimcore/test_motions.py",
+      "source": "easySV/tests/vimcore/test_motions.py",
+      "sha256": "b468be532d039865595f0f0dc3acadc173b6996c5a596a40d88aca508ee4af2e"
+    },
+    {
+      "path": "tests/vimcore/test_operators.py",
+      "source": "easySV/tests/vimcore/test_operators.py",
+      "sha256": "46b3bf64ce64ea119510654e2a332a726ec10904e61dbb840169faa9edcbeb58"
+    },
+    {
+      "path": "tests/vimcore/test_undo_repeat.py",
+      "source": "easySV/tests/vimcore/test_undo_repeat.py",
+      "sha256": "56e9bda7b96edf7042213410d8760451e74f1259ac7f855e33751322357244d3"
+    },
+    {
+      "path": "tests/vimcore/test_visual.py",
+      "source": "easySV/tests/vimcore/test_visual.py",
+      "sha256": "11278d87ea7420edc0e5ea076560e65bd14f6c5dcfa1131e21b328c8c930be49"
+    },
+    {
+      "path": "tests/vimcore/vimtest.py",
+      "source": "easySV/tests/vimcore/vimtest.py",
+      "sha256": "c9eca8a982f8c7b219e57e5d33b72427352e333663a7437997a6df88f8e0cca0"
+    },
+    {
+      "path": "vimcore/__init__.py",
+      "source": "easySV/vimcore/__init__.py",
+      "sha256": "5527f0dbbcc48cf3dd2d7077089b8168fe8b2f09d2a995c2c750806b5d618c23"
+    },
+    {
+      "path": "vimcore/buffer.py",
+      "source": "easySV/vimcore/buffer.py",
+      "sha256": "76072fdff719ed929a4df9ea45b402a0c5719a68bf60294be9bf8a82aa044b35"
+    },
+    {
+      "path": "vimcore/engine.py",
+      "source": "easySV/vimcore/engine.py",
+      "sha256": "2cfc712659619f494186d44f307aa73ef7ae06ecd5ca8ed1b73fefaeef27479e"
+    },
+    {
+      "path": "vimcore/excmd.py",
+      "source": "easySV/vimcore/excmd.py",
+      "sha256": "461e47c0a2f2867462e4fa831b3c90f8993569df69263f020309e2368097004b"
+    },
+    {
+      "path": "vimcore/hangul.py",
+      "source": "easySV/vimcore/hangul.py",
+      "sha256": "1970d5bec8e1c1e240279b003be691a988a9bc2263ac9454cc707f7826d6f9bc"
+    },
+    {
+      "path": "vimcore/keyparser.py",
+      "source": "easySV/vimcore/keyparser.py",
+      "sha256": "5be0e1a70cba993b8ad55b2bc5c8274a1500f51e37e415fbca10016d8392b4ea"
+    },
+    {
+      "path": "vimcore/macros.py",
+      "source": "easySV/vimcore/macros.py",
+      "sha256": "fc7462c6841dce27befe6a999703443b4d330db39d098b369028865bcf75dcf7"
+    },
+    {
+      "path": "vimcore/mapping.py",
+      "source": "easySV/vimcore/mapping.py",
+      "sha256": "2a0e39e8208c4d17b94919e2a3f13050c8ba93b9fc909fdc3c3c6daf6e8a26a4"
+    },
+    {
+      "path": "vimcore/modes.py",
+      "source": "easySV/vimcore/modes.py",
+      "sha256": "d0fc850d91a2b857c618886d8fa5c80ad7077891a53918c469333f46b5138bac"
+    },
+    {
+      "path": "vimcore/motions.py",
+      "source": "easySV/vimcore/motions.py",
+      "sha256": "e07a8c039d7f95537dfcebc271ce731d8d402bb5f86893d4cf31f183527894f7"
+    },
+    {
+      "path": "vimcore/operators.py",
+      "source": "easySV/vimcore/operators.py",
+      "sha256": "fe26261599ee018aa167d9cab34d60f3ad491cc6216bc5f32ac62b653a53061b"
+    },
+    {
+      "path": "vimcore/options.py",
+      "source": "easySV/vimcore/options.py",
+      "sha256": "a66dd698cd61420ecd6edd4c90d2ab49a4e0b43fd4e79886c9341e0d5e127a54"
+    },
+    {
+      "path": "vimcore/registers.py",
+      "source": "easySV/vimcore/registers.py",
+      "sha256": "d06060d18e409f930696973b14a6f7fea3cfaf16f54cdc611bf4f495cbff9d90"
+    },
+    {
+      "path": "vimcore/search.py",
+      "source": "easySV/vimcore/search.py",
+      "sha256": "a1dc6e3030c42cdd27838f893efa6338fd1c6867f156e35ce05d14afaa1edc0e"
+    },
+    {
+      "path": "vimcore/undo.py",
+      "source": "easySV/vimcore/undo.py",
+      "sha256": "46356525dc0cbbb2c1f0558cb6f933361c85c2f6db108b8d20c5c6fcdcc33601"
+    },
+    {
+      "path": "vimcore/viminfo.py",
+      "source": "easySV/vimcore/viminfo.py",
+      "sha256": "eb517354e6d91ba17b547d28a27980462d3350494d52cc2556b3e1956b6339e0"
+    }
+  ]
+}

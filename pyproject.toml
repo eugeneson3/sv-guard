@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sv-guard"
+version = "0.1.0"
+description = "SystemVerilog/UVM/FPGA learning IDE that catches common mistakes on save and explains why"
+readme = "README.md"
+requires-python = ">=3.11"  # pyslang 12 wheels require 3.11+
+dependencies = [
+    "pyslang>=12,<13",  # API is split into syntax/ast/analysis submodules since v12; older majors differ
+    "PyYAML>=6",
+]
+
+[project.optional-dependencies]
+gui = ["PySide6-Essentials>=6.11,<6.12"]  # only QtCore/QtGui/QtWidgets: Addons would add 460 MB
+dev = ["pytest>=8", "pytest-qt>=4.4"]
+
+[project.scripts]
+svguard = "svguard.cli:main"
+
+[project.gui-scripts]
+svguard-ide = "app.main:main"
+
+[tool.setuptools.packages.find]
+include = ["svguard*", "vimcore*", "app*"]
+
+[tool.setuptools.package-data]
+app = ["resources/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
